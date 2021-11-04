@@ -3,7 +3,7 @@
       driver-class-name: org.h2.Driver
       url: jdbc:h2:tcp://localhost/~/msa-example
       username: sa
-      password: '{cipher}5c511f7101bbbb12a7dca47582dcbc18d852d520b7ccc855b0c6f76f0be38085'
+      password: '{cipher}AQCbsrJ5HaRM48ICwC1XGCZ3+/6CtzdDKSS9UA3bu68/aP0Jz8kK7L+GGOYRxttMjqbRz+rj3oxvsdbj1OPBrpN8JluvPce7aJxyg0uEI5KQObb3Kk0rWD68KCKPvKeWhkdDn0xWWk8ADqzNINVahK0ogwZEjeSx2aJjLma1VdoOhcy3J9JeP3RqQV/mCUzj1mxgG32Xeg/tzcecMz1NCuzvEXDu7GWvtt+gSLzLLCQCG6ebWHqlXYtWfTdCjrR/wEfTnZdSNkJ4A/yOEa6TtX6FOvaTC+sX0SeySlppf03x//FnaXe0aTUw9O/Uh6MAFRd+StEiiFg1+YeZQCVYPIxG0/GL1MzPaxR98mhRbdESAjrWQMjUsmjXJ7vB/tlhVcA='
 
 token:
   expiration_time: 86400000
