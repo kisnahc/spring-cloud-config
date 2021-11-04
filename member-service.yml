@@ -1,12 +1,15 @@
-  spring:
-    datasource:
-      driver-class-name: org.h2.Driver
-      url: jdbc:h2:tcp://localhost/~/msa-example
-      username: sa
-      password: '{cipher}AQCbsrJ5HaRM48ICwC1XGCZ3+/6CtzdDKSS9UA3bu68/aP0Jz8kK7L+GGOYRxttMjqbRz+rj3oxvsdbj1OPBrpN8JluvPce7aJxyg0uEI5KQObb3Kk0rWD68KCKPvKeWhkdDn0xWWk8ADqzNINVahK0ogwZEjeSx2aJjLma1VdoOhcy3J9JeP3RqQV/mCUzj1mxgG32Xeg/tzcecMz1NCuzvEXDu7GWvtt+gSLzLLCQCG6ebWHqlXYtWfTdCjrR/wEfTnZdSNkJ4A/yOEa6TtX6FOvaTC+sX0SeySlppf03x//FnaXe0aTUw9O/Uh6MAFRd+StEiiFg1+YeZQCVYPIxG0/GL1MzPaxR98mhRbdESAjrWQMjUsmjXJ7vB/tlhVcA='
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:tcp://localhost/~/msa-example
+    username: sa
+    password: '{cipher}AQA0TrKjVKL75srBa39i/0oqvSrsF7a5S1kt690qUGabLJSMRIXcwUsvCgoJGXN3eBwZuf6XpPl8gkaRTEapaGv9OUfU7EoRy18a5oSTK8Fnzhcu88TPgn18jHSn/k4rf/P+MLhMr6EpgekVefG9jolmNM7fqdwEoyJvyUcGWGdMDyDhorN+K5VyYoI2KoM/3pnuD7yW+eP2F5R+YGl04Y5Iob3dr1mjtHBYH/YoDS5N/Ar2GIMbjoH1LS12sJYi/vIoPhAN13Jj+nsjrkO+BXMM+YKFtifM4mrJs9oY5jmo6R8rPb4K0PrKBTgZWeNzlNbKXAnC8VeSz57KG8WJxU3Cfe0IC/x2PBIW5FtGKy2nxNitfkvhtVCRkPdFOh8xtfU='
 
 token:
   expiration_time: 86400000
 
 gateway:
   ip: http://localhost:8000
+
+order_service:
+  url: http://localhost:8000/order-service/orders/%s
