@@ -11,5 +11,12 @@ token:
 gateway:
   ip: http://localhost:8000
 
-order_service:
-  url: http://order-service/order-service/orders/%s
+# order_service:
+#   url: http://order-service/order-service/orders/%s
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
