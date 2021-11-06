@@ -11,8 +11,11 @@ token:
 gateway:
   ip: http://localhost:8000
 
-# order_service:
-#   url: http://order-service/order-service/orders/%s
+order_service:
+  url: http://order-service/order-service/orders/%s
+  exception:
+    orders_is_empty: The member's order is empty.
+
 
 feign:
   client:
