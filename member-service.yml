@@ -1,9 +1,9 @@
 spring:
   datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:tcp://localhost/~/msa-example
-    username: sa
-    password: '{cipher}AQA0TrKjVKL75srBa39i/0oqvSrsF7a5S1kt690qUGabLJSMRIXcwUsvCgoJGXN3eBwZuf6XpPl8gkaRTEapaGv9OUfU7EoRy18a5oSTK8Fnzhcu88TPgn18jHSn/k4rf/P+MLhMr6EpgekVefG9jolmNM7fqdwEoyJvyUcGWGdMDyDhorN+K5VyYoI2KoM/3pnuD7yW+eP2F5R+YGl04Y5Iob3dr1mjtHBYH/YoDS5N/Ar2GIMbjoH1LS12sJYi/vIoPhAN13Jj+nsjrkO+BXMM+YKFtifM4mrJs9oY5jmo6R8rPb4K0PrKBTgZWeNzlNbKXAnC8VeSz57KG8WJxU3Cfe0IC/x2PBIW5FtGKy2nxNitfkvhtVCRkPdFOh8xtfU='
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/members?serverTimezone=Asia/Seoul
+    username: test
+    password: '{cipher}AQBolrv3RIiE5IEoiwbPSE52uPlIFopCoMgIuK73cKokvEGSfOb/uUBUbZ6RvXIdVx2YzVf/F0z7M65CHCVtzu/K0nsGIr0ICwmUtSX8BeWtEOlfn2RQPc6ZjXZDCLjFz8B4l0pYkOo65pR8BSPPEB6qskoU845RVh9rD7/almlCd36WHRZf9BPkkrGWf/a/bitjJcaT7WehOAPhUUOS6dGaLn/IqT/dHy/iUuT6Acw0xqhahulMcFWU5W26scGnUaOzmsrlE6YsX0UIG7OP6ly5RX5SdvndsRHc8iadqHv6Ve3h4uudObCxc2CUcig4thW67XffP6VvlOPHCZuqM/bimOGBn61kWi0Oz3C3CBaZ6X/2XHZeDNs340ZbHgZzqsc='
 
 token:
   expiration_time: 86400000
